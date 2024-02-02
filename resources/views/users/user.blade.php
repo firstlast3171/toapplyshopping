@@ -15,6 +15,9 @@
             <a href="/admin/adduser" class="btn btn-primary">Add User</a>
         </div>
         <div class="col-12">
+            @if (count($items) === 1)
+            <h1 class="text-warning">No User Here</h1>
+        @endif
             <table class="table">
                 <thead>
                     <tr>

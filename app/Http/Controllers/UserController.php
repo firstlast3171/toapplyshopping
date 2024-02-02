@@ -11,7 +11,7 @@ class UserController extends Controller
 {
     public function editpage($id){
         $data = User::find($id);
-        return view("edit_user",["item"=>$data]);
+        return view("users.edit_user",["item"=>$data]);
     }
 
     public function edit(EditUserRequest $request,$id){

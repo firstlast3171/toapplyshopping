@@ -13,6 +13,7 @@
           <div class="row">
                <div class="col-6 m-auto">
                     <h3 class="bg-danger text-light p-3 rounded text-center">TanTanMyanMyan</h3>
+                    <img src="" alt="">
                </div>
                @if(session('error'))
                <div class="alert alert-danger">

@@ -20,6 +20,6 @@ class MainController extends Controller
     }
     public function user(){
         $data = User::all();
-        return view("user",["items"=>$data]);
+        return view("users.user",["items"=>$data]);
     }
 }
